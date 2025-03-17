@@ -53,7 +53,21 @@ programa
 	
 	funcao matriz()//Apresenta a matriz na tela
 	{
+		escreva("   ")
+		para(inteiro i=0; i < 12; i++){
+			se(i<10){
+				escreva("  ",i)
+			}senao{
+				escreva(" ",i)
+			}
+		}
+		escreva("\n   ")
+		para(inteiro i=0; i < 12; i++){
+			escreva("---")
+		}
+		escreva("\n")
 		para(inteiro i=0; i < 10; i++){
+			escreva(i," |")
 			para(inteiro j=0; j < 12; j++){
 				escreva("  ",assentos[i][j])
 			}
@@ -66,7 +80,7 @@ programa
 		escreva("\n************  Reservar  ************\n")
 		escreva("\n- Digite o numero da linha e da coluna em sequência")
 		escreva("\n- Caso deseje sair digite -1 em uma das escolhas")
-		escreva("\nQual a sua escolha?\n")
+		escreva("\n- Qual a sua escolha?\n")
 		leia(lin,col)
 		se(lin==-1 ou col==-1){
 			saida=-1
@@ -95,7 +109,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2066; 
+ * @POSICAO-CURSOR = 1392; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
