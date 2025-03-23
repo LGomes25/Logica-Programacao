@@ -3,29 +3,20 @@ programa
 	
 	funcao inicio()
 	{
-		leitura()
+		inteiro a=0, vetor[] = {10, 20, 40, 50, 80,30,70,90,100,110}
+		alterar(vetor, a)
+		imprimir(vetor)
 	}
 
-	funcao leitura(){
-		inteiro numeros[3]
-		para(inteiro i = 0; i < 3; i++){
-			escreva("Digite os valores: ")
-			leia(numeros[i])
-		}
-		imprimir(numeros)//chamada de função
-		para(inteiro i=0; i < 3; i++){
-			escreva(numeros[i])
-		}
+	funcao alterar(inteiro &v[], inteiro i){
+		v[9] = 200
+		v[i] = 1	
 	}
 
-	funcao imprimir(inteiro &n[]){
-		para(inteiro i = 0; i < 3; i++){
-			escreva(n[i])
+	funcao imprimir(inteiro vet[]){
+		para(inteiro i=0; i < 10; i++){
+			escreva(vet[i],",")
 		}
-		escreva("\n")
-		n[0] = 5
-		n[1] = 6
-		n[2] = 7
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -33,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 123; 
+ * @POSICAO-CURSOR = 307; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

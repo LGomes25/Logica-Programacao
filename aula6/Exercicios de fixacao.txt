@@ -1,0 +1,32 @@
+Exercícios de fixação sobre funções da aula de hoje
+
+1) Criar um matriz 5x2 do tipo cadeia onde deverá ser inicializada com usuários e senhas.  Na função inicio o usuário deverá ler um usuário e senha.
+Deverá ser criada uma função para buscar na matriz se este usuário e senha foram encontrados e retornar se achou ou não este usuário, caso o usuário for encontrado escreva uma mensagem "Bem vindo ao sistema"
+
+2) Escrever um algoritmo que calcule o salario final de um vendedor,  mostre o salário fixo, o valor de vendas e o salario final incluindo a comissão sobre as vendas no mês.
+OBS: O algoritmo devera ler:
+O nome do vendedor
+Seu salário fixo
+O valor das vendas no mes
+Sua comissão sobre o valor das vendas efetuadas (em percentual)
+O sistema deverá ter um critério de saída para finalizar o programa
+
+ O SISTEMA DEVERÁ APRESENTAR O SEGUINTE RESULTADO (EXEMPLO)
+
+//  ---------- SISTEMA DE GESTÃO DE VENDEDORES -----------
+//  ------------------------------------------------------
+
+//  >>> Digite o nome do vendedor: João da Silva
+//  >>> Digite o salário: 1200
+//  >>> Informe o valor das suas vendas deste no mês: 550
+//  >>> Digite a comissão (em percentual): 10
+
+//  -------------- R E S U M O --------------
+//  -- Nome: João da Silva
+//  -- Salário Líquido:  1200.00
+//  -- Valor comissão:     55.00
+//  -- Salário Final (salário + comissão):  1255.00
+//  -----------------------------------------
+
+
+3) Crie uma função que receba um valor como parâmetro e retorne do dobro do valor e exiba na tela este valor.
